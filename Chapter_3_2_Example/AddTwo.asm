@@ -11,7 +11,9 @@ INCLUDE Irvine32.inc
 .model flat, stdcall
 .stack 4096
 ExitProcess PROTO, dwExitCoce:DWORD
+
 .data
+sum dword 0
 
 ; (insert variable definitions here)
 
@@ -19,6 +21,7 @@ ExitProcess PROTO, dwExitCoce:DWORD
 main PROC
 	mov eax,5
 	add eax,6
+	mov sum, eax
 
 	INVOKE ExitProcess,0
 main ENDP
