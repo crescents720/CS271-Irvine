@@ -2,7 +2,7 @@ TITLE Program 2     (Program_3.asm)
 
 ; Author: Gregory Mankes
 ; Course / Project ID : CS271/Program_3           Date:4/23/16
-; Description: This progeam will display the title and programmer's name and 
+; Description: This program will display the title and programmer's name and 
 ; greet the user. It will then prompt the user to enter any number of negative numbers
 ; until a non-negative number is entered. It will then calculate the avereage of those
 ; numbers
